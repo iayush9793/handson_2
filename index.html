@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handson 02</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="./index2.html" method="get">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="name" required><br><br>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email"placeholder="email" required> <br> <br>
+        <label for="pwd">Password:</label>
+<input type="password" id="pwd" name="pwd" placeholder="password"> <br> 
+<p>Language</p> 
+<input type="radio" id="react" name="language" value="REACT" required>
+<label for="react">React</label><br>
+<input type="radio" id="angular" name="language" value="ANGULAR">
+<label for="angular">Angular</label><br>
+<input type="radio" id="vue" name="language" value="VUE">
+<label for="vue">Vue</label>
+<p>Course</p> 
+<input type="checkbox" id="mern" name="course" value="MERN" required>
+<label for="mern">MERN</label><br>
+<input type="checkbox" id="mean" name="course" value="MEAN">
+<label for="mean">MEAN</label><br>
+<input type="checkbox" id="mevn" name="course" value="MEVN">
+<label for="mevn">MEVN</label><br><br>
+<label for="field">Field:</label><br>
+<select id="field">
+  <option value="frontend">Front End</option>
+  <option value="backend">back End</option>
+  <option value="fullstack">Full Stack</option>
+</select>
+<br><br>
+  <textarea id="textarea" name="textarea" rows="4" cols="40"></textarea> <br> <br>
+  <label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+<input type="submit" value="Submit">
+      </form>
+    <h2>Tables</h2>
+      <a href="index1.html">Click Here</a>  </body>
+</html>
